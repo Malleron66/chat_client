@@ -1,4 +1,4 @@
-import { create_sms_block } from "./chat/create_message";
+import { create_sms_block } from "./chat/create_message.js";
 import send_massage from "./chat/send_massage.js";
 import load_img from "./chat/load_img.js";
 
