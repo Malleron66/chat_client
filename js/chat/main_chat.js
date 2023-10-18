@@ -1,6 +1,12 @@
+<<<<<<< HEAD:js/chat/main_chat.js
 import { create_sms_block } from "./create_message.js";
 import send_massage from "./send_massage.js";
 import load_img from "./load_img.js";
+=======
+import { create_sms_block } from "./chat/create_message.js";
+import send_massage from "./chat/send_massage.js";
+import load_img from "./chat/load_img.js";
+>>>>>>> 81382536e0e0a5b121353c3900bb3b4e5c45ef0e:js/main.js
 
 //Запрос на сервер для получения истории сообщений
 window.addEventListener('DOMContentLoaded', async (event) => {
