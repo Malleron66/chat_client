@@ -158,8 +158,8 @@ export const create_sms_block = ({ message, userId, dataTime}) => {
     const { smsText, smsText_span } = create_sms_text({ message, userId });
     smsText.appendChild(smsText_span);
 
-    const { span: span1 } = create_redact_button({ class_name: "edit-button", img_src: "img/redact.png", title: "Editing" });
-    const { span: span2 } = create_redact_button({ class_name: "del_sms", img_src: "img/del.png", title: "Delete" });
+    const { span: span1 } = create_redact_button({ class_name: "edit-button", img_src: "../img/redact.png", title: "Editing" });
+    const { span: span2 } = create_redact_button({ class_name: "del_sms", img_src: "../img/del.png", title: "Delete" });
 
     const { wIcon } = create_wrapper_redact_buttons();
     wIcon.appendChild(span1);

@@ -1,0 +1,28 @@
+input{
+    box-shadow: rgb(89 144 147) 0px 0px 60px;
+}
+.wrapper-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.logo-home{
+    width: 400px;
+}
+.button-login{
+    width: 242px;
+    height: 36px;
+}
+.home-head{
+    display: block;
+    margin: 20px;
+    font-weight: bold;
+}

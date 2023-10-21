@@ -1,6 +1,6 @@
-import { create_sms_block } from "./chat/create_message";
-import send_massage from "./chat/send_massage.js";
-import load_img from "./chat/load_img.js";
+import { create_sms_block } from "./create_message.js";
+import send_massage from "./send_massage.js";
+import load_img from "./load_img.js";
 
 //Запрос на сервер для получения истории сообщений
 window.addEventListener('DOMContentLoaded', async (event) => {

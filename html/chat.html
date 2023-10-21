@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/defolt.css">
+        <link rel="stylesheet" href="../css/chat.css">
+    </head>
+    <body>
+        <div class="chat-page">
+            <div id="head_chat" class="head-chat">Переписка от кого кому</div>               
+            <div id="tracking_height" class="w-sms"></div>
+            <div id="wrapper_image_add" class="wrapper_image_preview_container"></div>
+            <div id="wrapper_sending" class="w-sending">
+                <div class="text-input-conteiner">
+                    <input type="text" id="text_message_id" name="text_message ">
+                    <img id="loader_img_button" src="../img/img_loader.png" title="Load img">
+                    <input type="file" id="input_img_button" multiple style="display: none;">
+                </div>                    
+                <input type="button" id="button_send_id" name="button_send" value="Send">          
+            </div>
+        </div>
+        <script type="module" src="../js/chat/main_chat.js"></script>
+    </body>
+</html>
